@@ -1,4 +1,4 @@
-package com.viremtechnologies.backbone;
+package com.viremtechnologies.backbone.module.baseActivities;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewStub;
+
+import com.viremtechnologies.backbone.R;
 
 public abstract class BaseDrawerActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 

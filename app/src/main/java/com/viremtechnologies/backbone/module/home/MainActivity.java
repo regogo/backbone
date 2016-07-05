@@ -1,6 +1,9 @@
-package com.viremtechnologies.backbone;
+package com.viremtechnologies.backbone.module.home;
 
 import android.view.View;
+
+import com.viremtechnologies.backbone.R;
+import com.viremtechnologies.backbone.module.baseActivities.BaseDrawerActivity;
 
 public class MainActivity extends BaseDrawerActivity {
 
