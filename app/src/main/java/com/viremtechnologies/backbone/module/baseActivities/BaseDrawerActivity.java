@@ -17,8 +17,8 @@ import com.viremtechnologies.backbone.R;
 
 public abstract class BaseDrawerActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
-    FloatingActionButton floatingActionButton;
-    DrawerLayout drawer;
+    protected FloatingActionButton floatingActionButton;
+    protected DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
