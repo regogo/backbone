@@ -6,7 +6,6 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +14,7 @@ import android.view.ViewStub;
 
 import com.viremtechnologies.backbone.R;
 
-public abstract class BaseDrawerActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
+public abstract class BaseDrawerActivity extends TrackedActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
     protected FloatingActionButton floatingActionButton;
     protected DrawerLayout drawer;
